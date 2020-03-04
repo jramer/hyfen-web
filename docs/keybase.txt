@@ -1,0 +1,88 @@
+==================================================================
+https://keybase.io/jrmr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://hyfen.se
+  * I am jrmr (https://keybase.io/jrmr) on keybase.
+  * I have a public key with fingerprint AC96 46C1 D6D3 BB41 0EDE  3527 3DD9 039E F02C 0573
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012071572ba103313765d7147b8434d9461014d06360318314afa534ff10496646380a",
+      "fingerprint": "ac9646c1d6d3bb410ede35273dd9039ef02c0573",
+      "host": "keybase.io",
+      "key_id": "3dd9039ef02c0573",
+      "kid": "01010546d96308ae09d4c77508276445a1681dbf41b9b0b3e8e54155063bbbda6cc80a",
+      "uid": "f2aab0e981915385e44c4dfd7705b819",
+      "username": "jrmr"
+    },
+    "merkle_root": {
+      "ctime": 1583358650,
+      "hash_meta": "aa327c78997d878389fdf3dbda69155303a86563c6055c75007c192f0c40650f",
+      "seqno": 15023464
+    },
+    "revoke": {
+      "sig_ids": [
+        "33d958e3dab89dd41e74b7294fa9c9f4b2b96ce1b812ee8414e4419d0e35af710f"
+      ]
+    },
+    "service": {
+      "hostname": "hyfen.se",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1583358651,
+  "expire_in": 157680000,
+  "prev": "601421d4e4092544bd6b9292dc86c95b6951299ffb4d695a18f209bf24090999",
+  "seqno": 45,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMP2AnicbVNrbBVFGG3tA2movAUKhHYTqeDNdWbnsTsFwstKK9WCSC0CvezuzNJL
+27v17qW0IUBa5NGCBDHaaggilRSSEpFiqkLlKRAM2KKQUIJYEEqgYEFFEprW2Qox
+Me7+2NmZ853vnDMzxxNjohKiJ12M2dbpi3Ojvz/qLI3KW6QcWK6YDi9T0pYrBaL3
+Iwq5cCOBgiBX0hQAVaBBoqmmAQFCEGmUcA1izdQxwpxhCgHEHFBEAYI6gtiwDYKw
+bUOAGaWYIh0Yik+xg6HFIlwcDoYiktawmFyyIKccmSaGQHCBiKohzhlATNhAtQDR
+kCzMd1yvQoozDVf4g46ckz+BXnn/g3+iW74EU84oArohAOPY0jQCdFWjGBMDUh1y
+08bQZCYwkdAFwZAQacQ0TW5Qy/pH99JeOls1DBMIpkMGCdKJwNjC3OaaBogpJz2g
+K8Iho0hI9JJwUVhZ4VOKRLigUATCjhPxgrUiQW8ZEh0holMCpDnDzQ8UiYjhZWIg
+VbM0nTGN65qOdGZzG3FPjGxKEECGLKLIooAQS1oBmgWZagMLA0lmSw2ueDvkeB2A
+ijDFUkJYlDgFwuvuBhfLzFwlbb6CEGdEF4gbps44x1Bo2NRUhm2DWczGpmoyagko
+nalC6Bhi6RcyDuQeGbYGZa+FK7xu4ZKg1UvubdJj8/lltgj5XSHlFIediGM5hd5s
+JFLspnmhRMqKPdgyYQYeEwTMYIjL4yErSkTYDTohaUEi/5sX9CmitDgYFoGghyAa
+1YF8vD6iRFJSeRJVyKVYwFSCscmpyVSmckunFiMmZQSqjNm2ibkcG1C3VcBMW5V4
+wBj7N0BMpE5jseSUqYWMyNKwUFYcPbIgNio6ISo+7inv3kQl9B3w5Dbtru/fk772
+UvOjziYrs9S6OSIu75mNqwdVZL67s2jvo/0162FDn2+abkbOpO2ZffmgsT1m2IHE
++NfiT/y1qs/sdn/znpxZox4Nnuw6V5K/Tux39bOKQ8vaBjz10q+NCzrcW6H2rKpL
+kbXny/qNWZj+52olm75S25L+u5VW00hJ6pQWa8v8yWsyllU2Jc8cE/3cqE+zj1Se
+GTaeDmmadW1NykfdK7Pcl8f1TajYtrJuWuXWbcKftOHbdc+PG7oVV6VOf/aDu9Pn
+4Jius6i87nhHQe61wOe7aseuClRdbSztbM8v/3lM3vTa4ecuTmpKmXDsxu56RoaO
+XjPYjt1Sfuqd+9XNo+GRlMD6GWdJ/9BmUwVJp+O/HHKs+Y1f0nd9Fbu1wXd+rHvF
+arjTNPPcsCzqY9ndmcbE3O33W3NWvti+f3NrXWvVYRpVXropOfOtpNgZPSdu576Q
+MfvhD/vmPii81nao6q7Vb0P/+4N883omvto1f3S9lutvrTmU/F6yXxv//q2TNRnd
+cQPd7L3T4l/fl7qj5bfKC9VFKYfXBeCtB7FPZ4zMcO+0LFmVOHDLjlNGTkP43urv
+ajrqt+Ouko76+KoP/zi7yN/V9/zk4Rc2D5jqTLs39XJP5o/lc/nx7k52ekobunOw
+rfp6zhfBikmtn7TcezghadPOqRtrURVtTP0puro8L/vj5Ddvj1DqZt24mDVvzvqR
+J68X/A2bA/Ca
+=5xTv
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jrmr
+
+==================================================================
