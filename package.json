@@ -1,0 +1,25 @@
+{
+  "name": "hyfen-web",
+  "version": "1.0.0",
+  "description": "Hyfen web page",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jramer/jramer.github.io.git"
+  },
+  "author": "Joakim Ramer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jramer/jramer.github.io/issues"
+  },
+  "homepage": "https://github.com/jramer/jramer.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}
