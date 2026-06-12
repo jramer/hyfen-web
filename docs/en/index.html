@@ -36,11 +36,13 @@
          alt="Hyfen AB" />
     <p class="tagline">IT consulting services</p>
 
+    
     <nav class="contact" aria-label="Email">
-      <a href="mailto:joakim@hyfen.se">Email</a>
+      <a class="email" href="#" data-user="hej" data-domain="hyfen.se">Email</a>
       <a href="https://www.linkedin.com/in/joakim-ramer" target="_blank" rel="noopener">LinkedIn</a>
       <a href="https://github.com/jramer" target="_blank" rel="noopener">GitHub</a>
     </nav>
+    <noscript><p class="email-fallback">hej at hyfen.se</p></noscript>
   </div>
 
   <footer class="legal">
@@ -48,5 +50,10 @@
   </footer>
 </main>
 
+    <script>
+      for (const a of document.querySelectorAll("a.email")) {
+        a.href = "mailto:" + a.dataset.user + "@" + a.dataset.domain;
+      }
+    </script>
   </body>
 </html>

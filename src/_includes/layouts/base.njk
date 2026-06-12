@@ -27,5 +27,10 @@
   </head>
   <body>
     {{ content | safe }}
+    <script>
+      for (const a of document.querySelectorAll("a.email")) {
+        a.href = "mailto:" + a.dataset.user + "@" + a.dataset.domain;
+      }
+    </script>
   </body>
 </html>
