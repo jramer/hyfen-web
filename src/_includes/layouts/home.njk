@@ -1,7 +1,24 @@
 ---
 layout: layouts/base.njk
-templateClass: tmpl-home
 ---
-{{ content | safe }}
+{% set lang = lang or "sv" %}
+{% set t = i18n[lang] %}
+<main class="hero">
+  <a class="lang-switch" href="{{ t.switchHref | url }}" hreflang="{{ t.switchLang or (lang == 'sv' and 'en' or 'sv') }}">{{ t.switchLabel }}</a>
 
-<img src="img/hyfen.png" alt="logo" />
+  <div class="card">
+    <img class="logo" src="{{ '/img/hyfen.png' | url }}" width="595" height="595"
+         alt="Hyfen AB" />
+    <p class="tagline">{{ t.tagline }}</p>
+
+    <nav class="contact" aria-label="{{ t.email }}">
+      <a href="mailto:{{ metadata.author.email }}">{{ t.email }}</a>
+      <a href="{{ metadata.social.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="{{ metadata.social.github }}" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </div>
+
+  <footer class="legal">
+    {{ metadata.company.name }} &middot; {{ t.orgLabel }} {{ metadata.company.orgnr }}
+  </footer>
+</main>

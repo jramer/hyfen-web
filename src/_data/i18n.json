@@ -1,0 +1,24 @@
+{
+  "sv": {
+    "locale": "sv_SE",
+    "tagline": "Konsulttjänster inom IT",
+    "description": "Konsulttjänster inom IT.",
+    "email": "E-post",
+    "orgLabel": "Org.nr",
+    "notFound": "Sidan kunde inte hittas",
+    "backHome": "Till startsidan",
+    "switchLabel": "English",
+    "switchHref": "/en/"
+  },
+  "en": {
+    "locale": "en_GB",
+    "tagline": "IT consulting services",
+    "description": "IT consulting services.",
+    "email": "Email",
+    "orgLabel": "Company reg. no.",
+    "notFound": "Page not found",
+    "backHome": "Back to start",
+    "switchLabel": "Svenska",
+    "switchHref": "/"
+  }
+}

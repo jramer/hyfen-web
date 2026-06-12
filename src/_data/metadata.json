@@ -1,9 +1,18 @@
 {
   "title": "Hyfen AB",
   "url": "https://hyfen.se/",
-  "description": "Konsulttjänster inom IT och projektledning.",
+  "description": "Konsulttjänster inom IT.",
+  "tagline": "Konsulttjänster inom IT",
   "author": {
     "name": "Joakim Ramer",
     "email": "joakim@hyfen.se"
+  },
+  "company": {
+    "name": "Hyfen AB",
+    "orgnr": "559180-9958"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/joakim-ramer",
+    "github": "https://github.com/jramer"
   }
 }
