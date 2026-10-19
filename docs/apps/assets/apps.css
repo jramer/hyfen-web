@@ -19,7 +19,7 @@ table{width:100%;border-collapse:collapse;background:var(--card);border:1px soli
 caption{text-align:left;color:var(--soft);padding:0 0 .5rem;font-size:.9rem}
 th,td{text-align:left;padding:.65rem .85rem;border-top:1px solid var(--line);vertical-align:top}
 thead th{border-top:0;font-size:.85rem;color:var(--soft)}
-td small{display:block;color:var(--soft);font-size:.85rem}
+th small,td small{display:block;font-weight:400;margin-top:.15rem;color:var(--soft);font-size:.85rem}
 th[scope=row]{font-weight:600}
 footer{margin-top:4rem;padding:1.5rem 0 3rem;border-top:1px solid var(--line);color:var(--soft);font-size:.9rem}
 footer p{margin:0 0 .4rem}
