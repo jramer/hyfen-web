@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <link rel="icon" type="image/svg+xml" href="/assets/attic-icon.svg">
+    <link rel="stylesheet" href="/assets/apps.css">
+  </head>
+  <body class="{{ page_class }}">
+    {% if page_class == 'prose' %}<main class="wrap">{{ content | safe }}<a class="home-link" href="/attic">About Attic</a></main>{% else %}{{ content | safe }}{% endif %}
+    <div class="wrap">
+      <footer>
+        <p>{{ metadata.company.name }} &middot; org.nr {{ metadata.company.orgnr }}</p>
+        <p><a href="mailto:attic@hyfen.se">attic@hyfen.se</a></p>
+        <nav aria-label="Legal">
+          <a href="/privacy">Privacy policy</a>
+          <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
