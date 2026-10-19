@@ -7,5 +7,16 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^(www\.)?hyfen\.se$ [NC]
 RewriteRule ^(.*)$ https://apps.hyfen.se/$1 [R=301,L]
 
-# Send the bare root of apps.hyfen.se to the Attic page (temporary, for now).
-RewriteRule ^$ /attic/ [R=302,L]
+# Language default for apps.hyfen.se is English. Only the bare "/" is redirected,
+# so direct links to /attic/ and /sv/attic/ (and the language switch) are left alone.
+# Rule: the first language tag in Accept-Language decides; "sv" or "sv-*" goes to the
+# Swedish Attic page, anything else (or no header) to the English one (temporary, for now).
+RewriteCond %{HTTP:Accept-Language} ^\s*sv([-_;,\s]|$) [NC]
+RewriteRule ^$ /sv/attic/ [R=302,L,E=LANGREDIR:1]
+RewriteRule ^$ /attic/ [R=302,L,E=LANGREDIR:1]
+
+# The answer for "/" depends on the browser, so no cache may share it.
+<IfModule mod_headers.c>
+  Header always merge Vary Accept-Language env=LANGREDIR
+  Header always set Cache-Control "private, no-store" env=LANGREDIR
+</IfModule>

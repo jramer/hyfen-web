@@ -1,0 +1,41 @@
+{% set a = attic[lang] %}
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <img src="/assets/attic-icon.svg" width="96" height="96" alt="{{ a.iconAlt }}">
+      <div>
+        <h1>{{ a.h1 }}</h1>
+        <p class="sub">{{ a.sub }}</p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <p class="lead">{{ a.lead }}</p>
+    <p>{{ a.stored }}</p>
+
+    <h2>{{ a.getHeading }}</h2>
+    <ul class="plain">
+      {%- for item in a.items %}
+      <li>{{ item }}</li>
+      {%- endfor %}
+    </ul>
+    <p>{{ a.requires }}</p>
+
+    <h2>{{ a.plansHeading }}</h2>
+    <p>{{ a.plans }}</p>
+    <table>
+      <caption>{{ a.caption }}</caption>
+      <thead><tr><th scope="col">&nbsp;</th><th scope="col">{{ a.free }}</th><th scope="col">{{ a.pro }}</th></tr></thead>
+      <tbody>
+        {%- for row in a.rows %}
+        <tr><th scope="row">{{ row.label }}{% if row.small %}<small>{{ row.small }}</small>{% endif %}</th><td>{{ row.free }}</td><td>{{ row.pro }}</td></tr>
+        {%- endfor %}
+      </tbody>
+    </table>
+    <p style="margin-top:1rem">{{ a.ended }}</p>
+
+    <h2>{{ a.privacyHeading }}</h2>
+    <p>{{ a.privacyBefore }}<a href="/privacy">{{ a.privacyLink }}</a>{{ a.privacyAfter }}</p>
+    <p>{{ a.notYet }}</p>
+  </main>
+</div>
