@@ -1,0 +1,2 @@
+# Serve the built 404 page, as GitHub Pages did.
+ErrorDocument 404 /404.html
