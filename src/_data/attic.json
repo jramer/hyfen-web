@@ -27,7 +27,7 @@
     ],
     "ended": "If a subscription ends, the history collected while it was active stays.",
     "privacyHeading": "Privacy",
-    "privacyBefore": "Attic runs no servers and has no analytics or advertising. Read the ",
+    "privacyBefore": "Your readings stay on your Mac. Attic has no advertising, and anonymous usage data is sent only if you turn it on. Read the ",
     "privacyLink": "privacy policy",
     "privacyAfter": ".",
     "notYet": "Attic is not on the App Store yet."
@@ -60,7 +60,7 @@
     ],
     "ended": "Om en prenumeration upphör ligger den historik som samlades in medan den var aktiv kvar.",
     "privacyHeading": "Integritet",
-    "privacyBefore": "Attic kör inga servrar och har varken analys eller reklam. Läs ",
+    "privacyBefore": "Dina mätvärden stannar på din Mac. Attic har ingen reklam, och anonym användningsdata skickas bara om du slår på det. Läs ",
     "privacyLink": "integritetspolicyn",
     "privacyAfter": ". Policyn finns bara på engelska.",
     "notYet": "Attic finns inte i App Store ännu."
