@@ -1,6 +1,11 @@
 # apps.hyfen.se has no /404.html, so use the server default.
 ErrorDocument 404 default
 
-# Send the bare root to the Attic page (temporary, for now).
 RewriteEngine On
+
+# Under hyfen.se, send everything in the nested apps copy to apps.hyfen.se.
+RewriteCond %{HTTP_HOST} ^(www\.)?hyfen\.se$ [NC]
+RewriteRule ^(.*)$ https://apps.hyfen.se/$1 [R=301,L]
+
+# Send the bare root of apps.hyfen.se to the Attic page (temporary, for now).
 RewriteRule ^$ /attic/ [R=302,L]
