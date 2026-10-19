@@ -1,0 +1,7 @@
+# Serve the built 404 page, as GitHub Pages did.
+ErrorDocument 404 /404.html
+
+# On hyfen.se only, send the nested apps copy to apps.hyfen.se.
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?hyfen\.se$ [NC]
+RewriteRule ^apps(?:/(.*))?$ https://apps.hyfen.se/$1 [R=301,L]

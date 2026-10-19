@@ -1,0 +1,6 @@
+# apps.hyfen.se has no /404.html, so use the server default.
+ErrorDocument 404 default
+
+# Send the bare root to the Attic page (temporary, for now).
+RewriteEngine On
+RewriteRule ^$ /attic/ [R=302,L]
