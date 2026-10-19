@@ -8,6 +8,8 @@
     "orgLabel": "Org.nr",
     "notFound": "Sidan kunde inte hittas",
     "backHome": "Till startsidan",
+    "contactLabel": "Kontakt",
+    "appsLabel": "Appar",
     "switchLabel": "English",
     "switchHref": "/en/"
   },
@@ -20,7 +22,9 @@
     "orgLabel": "Company reg. no.",
     "notFound": "Page not found",
     "backHome": "Back to start",
+    "contactLabel": "Contact",
+    "appsLabel": "Apps",
     "switchLabel": "Svenska",
-    "switchHref": "/"
+    "switchHref": "/?lang=sv"
   }
 }

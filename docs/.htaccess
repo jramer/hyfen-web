@@ -1,2 +1,18 @@
 # Serve the built 404 page, as GitHub Pages did.
 ErrorDocument 404 /404.html
+
+RewriteEngine On
+
+# Language default for hyfen.se is Swedish. Only the bare "/" (no query string)
+# is ever redirected, so direct links and the "/?lang=sv" switch are left alone.
+# Rule: the first language tag in Accept-Language decides; "en" or "en-*" goes to /en/.
+RewriteRule ^$ - [E=LANGENTRY:1]
+RewriteCond %{QUERY_STRING} ^$
+RewriteCond %{HTTP:Accept-Language} ^\s*en([-_;,\s]|$) [NC]
+RewriteRule ^$ /en/ [R=302,L,E=LANGREDIR:1]
+
+# The answer for "/" depends on the browser, so no cache may share it.
+<IfModule mod_headers.c>
+  Header always merge Vary Accept-Language env=LANGENTRY
+  Header always set Cache-Control "private, no-store" env=LANGREDIR
+</IfModule>

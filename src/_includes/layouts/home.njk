@@ -12,10 +12,11 @@ layout: layouts/base.njk
     <p class="tagline">{{ t.tagline }}</p>
 
     {% set emailParts = metadata.author.email | split("@") %}
-    <nav class="contact" aria-label="{{ t.email }}">
+    <nav class="contact" aria-label="{{ t.contactLabel }}">
       <a class="email" href="#" data-user="{{ emailParts[0] }}" data-domain="{{ emailParts[1] }}">{{ t.email }}</a>
       <a href="{{ metadata.social.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
       <a href="{{ metadata.social.github }}" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://apps.hyfen.se/">{{ t.appsLabel }}</a>
     </nav>
     <noscript><p class="email-fallback">{{ emailParts[0] }} {{ t.atWord }} {{ emailParts[1] }}</p></noscript>
   </div>

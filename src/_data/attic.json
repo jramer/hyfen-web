@@ -1,0 +1,68 @@
+{
+  "en": {
+    "h1": "Attic: Home History",
+    "sub": "Logs & charts for HomeKit",
+    "iconAlt": "Attic app icon: an archive box with a rising line chart under a blue roof",
+    "lead": "Attic is a Mac app that lives in your menu bar. It records what your HomeKit accessories report, such as temperature, humidity, power and air quality, and charts it over time.",
+    "stored": "Your readings are stored on your Mac. They go somewhere else only if you choose to send them.",
+    "getHeading": "What you get",
+    "items": [
+      "A history of every reading your home reports, kept for as long as your plan allows.",
+      "Charts you can browse by home, room and sensor.",
+      "A menu-bar icon that shows whether Attic is collecting, so a gap in a chart has an explanation.",
+      "Attic only reads your accessories. It never controls them."
+    ],
+    "requires": "Attic needs macOS 15 or later, and your Mac has to be on and Attic running for it to record.",
+    "plansHeading": "Free, and Attic Pro",
+    "plans": "The free plan collects the same readings and keeps the last 7 days. Attic Pro is a monthly or yearly subscription, with Family Sharing, that keeps your history with no limit and turns on export and the destinations.",
+    "caption": "Free plan and Attic Pro compared",
+    "free": "Free",
+    "pro": "Attic Pro",
+    "rows": [
+      { "label": "History kept", "free": "7 days", "pro": "No limit" },
+      { "label": "Home Assistant", "small": "Your sensors in Home Assistant, with history", "free": "No", "pro": "Yes" },
+      { "label": "MQTT", "small": "Every new reading sent to your own broker", "free": "No", "pro": "Yes" },
+      { "label": "Local API", "small": "Latest values for Home Assistant or a script", "free": "No", "pro": "Yes" },
+      { "label": "Export to CSV or JSON", "free": "No", "pro": "Yes" }
+    ],
+    "ended": "If a subscription ends, the history collected while it was active stays.",
+    "privacyHeading": "Privacy",
+    "privacyBefore": "Attic runs no servers and has no analytics or advertising. Read the ",
+    "privacyLink": "privacy policy",
+    "privacyAfter": ".",
+    "notYet": "Attic is not on the App Store yet."
+  },
+  "sv": {
+    "h1": "Attic: Home History",
+    "sub": "Loggar och diagram för HomeKit",
+    "iconAlt": "Attics appikon: en arkivlåda med ett stigande linjediagram under ett blått tak",
+    "lead": "Attic är en Mac-app som sitter i menyraden. Den registrerar vad dina HomeKit-tillbehör rapporterar, som temperatur, luftfuktighet, effekt och luftkvalitet, och visar det i diagram över tid.",
+    "stored": "Dina mätvärden sparas på din Mac. De skickas någon annanstans först när du väljer det.",
+    "getHeading": "Det här får du",
+    "items": [
+      "En historik över alla mätvärden som ditt hem rapporterar, sparad så länge din plan tillåter.",
+      "Diagram som du kan bläddra i per hem, rum och sensor.",
+      "En ikon i menyraden som visar om Attic samlar in data, så att ett hål i ett diagram har en förklaring.",
+      "Attic läser bara dina tillbehör. Den styr dem aldrig."
+    ],
+    "requires": "Attic kräver macOS 15 eller senare, och din Mac måste vara på och Attic igång för att något ska registreras.",
+    "plansHeading": "Gratis och Attic Pro",
+    "plans": "Den kostnadsfria planen samlar in samma mätvärden och sparar de senaste 7 dagarna. Attic Pro är en prenumeration, per månad eller år, med Familjedelning, som sparar din historik utan begränsning och slår på export och destinationerna.",
+    "caption": "Jämförelse mellan gratisplanen och Attic Pro",
+    "free": "Gratis",
+    "pro": "Attic Pro",
+    "rows": [
+      { "label": "Sparad historik", "free": "7 dagar", "pro": "Obegränsad" },
+      { "label": "Home Assistant", "small": "Dina sensorer i Home Assistant, med historik", "free": "Nej", "pro": "Ja" },
+      { "label": "MQTT", "small": "Varje nytt mätvärde skickas till din egen broker", "free": "Nej", "pro": "Ja" },
+      { "label": "Local API", "small": "Senaste värden för Home Assistant eller ett skript", "free": "Nej", "pro": "Ja" },
+      { "label": "Export till CSV eller JSON", "free": "Nej", "pro": "Ja" }
+    ],
+    "ended": "Om en prenumeration upphör ligger den historik som samlades in medan den var aktiv kvar.",
+    "privacyHeading": "Integritet",
+    "privacyBefore": "Attic kör inga servrar och har varken analys eller reklam. Läs ",
+    "privacyLink": "integritetspolicyn",
+    "privacyAfter": ". Policyn finns bara på engelska.",
+    "notYet": "Attic finns inte i App Store ännu."
+  }
+}

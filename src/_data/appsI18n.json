@@ -1,0 +1,21 @@
+{
+  "base": "https://apps.hyfen.se",
+  "en": {
+    "orgLabel": "org.nr",
+    "legalLabel": "Legal",
+    "privacy": "Privacy policy",
+    "terms": "Terms of Use",
+    "switchLabel": "Svenska",
+    "switchHref": "/sv/attic/",
+    "switchLang": "sv"
+  },
+  "sv": {
+    "orgLabel": "org.nr",
+    "legalLabel": "Juridik",
+    "privacy": "Integritetspolicy (på engelska)",
+    "terms": "Användarvillkor",
+    "switchLabel": "English",
+    "switchHref": "/attic/",
+    "switchLang": "en"
+  }
+}
