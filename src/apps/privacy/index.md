@@ -1,66 +1,72 @@
 ---
-title: Attic privacy policy
-description: How Attic for HomeKit handles your data.
+title: Hyfen apps privacy policy
+description: How Hyfen apps handle app data, optional analytics, support and diagnostics.
 permalink: /apps/privacy/index.html
 layout: layouts/apps.njk
 page_class: prose
 ---
-# Attic privacy policy
+# Hyfen apps privacy policy
 
-Effective 19 October 2026
+Effective 20 October 2026
 
-## Who we are
+Hyfen AB, organisation number 559180-9958, Sweden, is responsible for the data handling described here. This policy covers our apps that link to it. Contact us at **attic@hyfen.se**.
 
-Attic for HomeKit is published by Hyfen AB, organisation number 559180-9958. You can reach us at attic@hyfen.se.
+## Optional app analytics
 
-## What Attic does with your data
+With your consent, our apps send basic usage information to help us understand which features people use and improve our apps. This is off by default. You can turn it on or off in the app's settings, and all features work without it.
 
-Attic reads the sensors in your Home through HomeKit and Matter and stores the readings in a database on your Mac. Those readings stay on your Mac. Attic only reads your accessories and never controls them.
+This information includes:
 
-## What leaves your Mac
+- App launches and features used, such as opening settings, exporting or buying a subscription.
+- Your plan, app version and operating system's major version.
+- Counts of pinned tiles, charts and comparisons, and the types of connections you have configured, where those features exist.
 
-Data leaves your Mac only when you set it up.
+Analytics does not include your name, email, a permanent device identifier or your content. In Attic, it includes no HomeKit names, rooms, accessories or readings.
 
-- Home Assistant and MQTT destinations send readings to the server or broker you enter. We do not run or see those servers. Credentials are kept in your Mac's Keychain.
-- The Local API is off until you turn it on. It requires a token and answers only devices on your own network. Connections from anywhere else are closed.
-- Export writes a file to the place you choose.
-- Anonymous usage data is sent to us only if you turn it on. The next section says what it contains.
+We store daily totals, broken down by these categories, for **24 months**. We do not keep a user-by-user activity history or store IP addresses in our analytics database. Cloudflare's separate handling of connection information is explained below.
 
-## Anonymous usage data (optional)
+Turning analytics off stops further sending and deletes queued events. We cannot normally identify and remove your contribution from totals already recorded.
 
-Attic can send us anonymous data about how the app is used. It is off until you turn it on, during setup or in Settings → General, and you can turn it off there at any time. No feature depends on it, paid or free.
+## Support emails and diagnostic files
 
-When it is on, Attic sends us:
+If you contact us, we receive your email address, your message and any screenshots, logs or other files you send. These files may contain personal information, so please share only what is needed.
 
-- which parts of the app are used, for example that Settings or Diagnostics was opened, a chart range was changed, an export was made, a destination was turned on, the Attic Pro sheet was opened or a subscription was bought (monthly or yearly);
-- once a day: your plan (free or Attic Pro), the app version and the macOS version; how many tiles and charts are pinned on the Overview and how many comparisons you have, each sent on its own; and which kinds of destination are set up.
+We use this information to answer you and investigate problems. Our legal basis is our legitimate interest in providing support and fixing our apps.
 
-It never contains an identifier, your name, your readings or anything from HomeKit: no homes, rooms or accessories. Dates are rounded to the day.
+We delete support emails and accompanying files **within three months of receiving them**.
 
-The data goes to a service we run on Cloudflare, with the database stored in the EU. We keep only daily totals: how many times each event happened on each day. We do not store your IP address. Cloudflare, which carries the traffic, sees the IP address of every connection, as any network provider does, and keeps it in its security logs for requests it blocks. We keep the totals for 24 months and then delete them.
+## Cloudflare
 
-Turning it off stops the sending and deletes what has not been sent yet. Because nothing we keep can be linked to you, we cannot find or delete data that was already sent.
+Our app analytics service runs on Cloudflare. Cloudflare processes connection information, including IP addresses and technical request details, to deliver traffic and prevent abuse. Its traffic and security records available to us can include requests that were not blocked and are retained for [up to 31 days on our current plan](https://developers.cloudflare.com/waf/analytics/security-analytics/#limits). Request logging and tracing are disabled in our analytics service.
 
-## What we receive
+Our production and test analytics databases are restricted to the **European Union**. This restriction applies to database storage and operation; Cloudflare may process connection information elsewhere, including in the United States. Its [data processing agreement](https://www.cloudflare.com/cloudflare-customer-dpa/) describes the safeguards for international transfers.
 
-Only the anonymous usage data described above, and only if you turn it on. We do not receive your readings, your Home's layout or anything from HomeKit. The app contains no crash-reporting or advertising SDKs.
+We rely on our legitimate interest in keeping our services secure and available for necessary security processing. Cloudflare also handles information for its own network operations and security, with retention depending on the purpose and legal requirements. Its [privacy policy](https://www.cloudflare.com/privacypolicy/) explains this separate use.
 
-## Purchases
+## Apple purchases and diagnostics
 
-Subscriptions are handled by Apple through the App Store. We see no payment details.
+Apple handles App Store payments and subscriptions. We do not receive your card or bank details.
 
-## HomeKit data
+Apple may share crash reports, performance information and usage statistics with us according to your device's sharing settings. This is separate from our app's analytics switch. See [Apple's App Analytics privacy notice](https://www.apple.com/legal/privacy/data/en/app-analytics/).
 
-We never use HomeKit data for advertising or data mining.
+If you test an app through **TestFlight**, Apple automatically shares crash and usage information with us. Feedback and, depending on how you joined, your name and email may also be shared. See [Apple's TestFlight privacy notice](https://www.apple.com/legal/privacy/data/en/test-flight/).
 
-## Children
+We use these reports to find and fix problems, based on our legitimate interest in improving our apps. Copies we download are deleted within three months. Apple controls retention in its own systems.
 
-Attic is not directed at children and we do not knowingly collect data from anyone, children included.
+## Attic and your Home data
 
-## Your rights under GDPR
+Attic reads HomeKit and Matter sensors and stores their readings on your Mac. It never controls accessories or uses HomeKit data for advertising or data mining.
 
-You have the right to access, correct and delete personal data we hold about you, and to complain to your data protection authority (in Sweden, IMY). The usage data we keep is anonymous daily totals, so we hold no personal data about Attic users and a request has nothing to act on. You are welcome to contact us at attic@hyfen.se.
+Readings leave through connections or exports you choose, such as Home Assistant, MQTT or the token-protected Local API. Connection credentials are kept in Keychain. We do not receive those readings unless you send them to us for support.
 
-## Changes to this policy
+Local history follows your plan and retention settings; Pro can keep history without a time limit. Exports and copies held by your chosen destinations must be deleted separately.
 
-If we change this policy we will update this page and the effective date. The current version is effective 19 October 2026.
+## Your choices and rights
+
+You can contact us to request access, correction or deletion of personal information, restrict its use, object to processing based on legitimate interests, or request a portable copy where applicable. You can withdraw analytics consent at any time without affecting earlier lawful processing. We normally respond within one month.
+
+These rights concern information we can identify as yours. Anonymous totals cannot normally be traced back to you.
+
+You can also complain to [IMY, Sweden's privacy authority](https://www.imy.se/), or your local privacy authority.
+
+We will update this page and its effective date when this policy changes, and seek fresh consent where needed.

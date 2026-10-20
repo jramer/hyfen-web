@@ -18,11 +18,13 @@
       {%- for item in a.items %}
       <li>{{ item }}</li>
       {%- endfor %}
-    </ul>
+    </ul>{% if a.readOnly %}
+    <p>{{ a.readOnly }}</p>{% endif %}
     <p>{{ a.requires }}</p>
 
     <h2>{{ a.plansHeading }}</h2>
-    <p>{{ a.plans }}</p>
+    <p>{{ a.plans }}</p>{% if a.proPlans %}
+    <p>{{ a.proPlans }}</p>{% endif %}
     <table>
       <caption>{{ a.caption }}</caption>
       <thead><tr><th scope="col">&nbsp;</th><th scope="col">{{ a.free }}</th><th scope="col">{{ a.pro }}</th></tr></thead>
@@ -35,7 +37,8 @@
     <p style="margin-top:1rem">{{ a.ended }}</p>
 
     <h2>{{ a.privacyHeading }}</h2>
-    <p>{{ a.privacyBefore }}<a href="/privacy">{{ a.privacyLink }}</a>{{ a.privacyAfter }}</p>
+    {% if a.privacy %}<p>{{ a.privacy }}</p>
+    {% endif %}<p>{{ a.privacyBefore }}<a href="/privacy">{{ a.privacyLink }}</a>{{ a.privacyAfter }}</p>
     <p>{{ a.notYet }}</p>
   </main>
 </div>

@@ -34,35 +34,60 @@
   },
   "sv": {
     "h1": "Attic: Home History",
-    "sub": "Loggar och diagram för HomeKit",
-    "iconAlt": "Attics appikon: en arkivlåda med ett stigande linjediagram under ett blått tak",
-    "lead": "Attic är en Mac-app som sitter i menyraden. Den registrerar vad dina HomeKit-tillbehör rapporterar, som temperatur, luftfuktighet, effekt och luftkvalitet, och visar det i diagram över tid.",
-    "stored": "Dina mätvärden sparas på din Mac. De skickas någon annanstans först när du väljer det.",
-    "getHeading": "Det här får du",
+    "sub": "Historik och grafer för HomeKit",
+    "iconAlt": "Attics appikon: en arkivlåda med en stigande linjegraf under ett blått tak",
+    "lead": "Attic är en app för Mac som samlar in mätvärden från dina HomeKit-tillbehör och visar dem i grafer. Följ hur temperatur, luftfuktighet, effekt och luftkvalitet förändras över tid, direkt från menyraden.",
+    "stored": "Mätvärdena sparas på din dator och skickas vidare bara om du själv väljer det.",
+    "getHeading": "Det här kan du göra med Attic",
     "items": [
-      "En historik över alla mätvärden som ditt hem rapporterar, sparad så länge din plan tillåter.",
-      "Diagram som du kan bläddra i per hem, rum och sensor.",
-      "En ikon i menyraden som visar om Attic samlar in data, så att ett hål i ett diagram har en förklaring.",
-      "Attic läser bara dina tillbehör. Den styr dem aldrig."
+      "Se tidigare mätvärden från dina HomeKit-tillbehör.",
+      "Utforska grafer för olika hem, rum och sensorer.",
+      "Se i menyraden om insamlingen är igång. Det gör det lättare att förstå eventuella luckor i graferna."
     ],
-    "requires": "Attic kräver macOS 15 eller senare, och din Mac måste vara på och Attic igång för att något ska registreras.",
-    "plansHeading": "Gratis och Attic Pro",
-    "plans": "Den kostnadsfria planen samlar in samma mätvärden och sparar de senaste 7 dagarna. Attic Pro är en prenumeration, per månad eller år, med Familjedelning, som sparar din historik utan begränsning och slår på export och destinationerna.",
+    "requires": "Du behöver macOS 15 eller senare. För att samla in mätvärden måste din Mac vara på och Attic vara igång.",
+    "plansHeading": "Använd gratis eller välj Attic Pro",
+    "plans": "Gratisversionen samlar in samma mätvärden som Attic Pro och sparar historiken för de senaste sju dagarna.",
     "caption": "Jämförelse mellan gratisplanen och Attic Pro",
     "free": "Gratis",
     "pro": "Attic Pro",
     "rows": [
-      { "label": "Sparad historik", "free": "7 dagar", "pro": "Obegränsad" },
-      { "label": "Home Assistant", "small": "Dina sensorer i Home Assistant, med historik", "free": "Nej", "pro": "Ja" },
-      { "label": "MQTT", "small": "Varje nytt mätvärde skickas till din egen broker", "free": "Nej", "pro": "Ja" },
-      { "label": "Local API", "small": "Senaste värden för Home Assistant eller ett skript", "free": "Nej", "pro": "Ja" },
-      { "label": "Export till CSV eller JSON", "free": "Nej", "pro": "Ja" }
+      {
+        "label": "Historik",
+        "free": "7 dagar",
+        "pro": "Utan tidsgräns"
+      },
+      {
+        "label": "Home Assistant",
+        "small": "Visa sensorvärden och historik",
+        "free": "Nej",
+        "pro": "Ja"
+      },
+      {
+        "label": "MQTT",
+        "small": "Skicka nya mätvärden till din egen MQTT-broker",
+        "free": "Nej",
+        "pro": "Ja"
+      },
+      {
+        "label": "Lokalt API",
+        "small": "Hämta de senaste mätvärdena till Home Assistant eller ett skript",
+        "free": "Nej",
+        "pro": "Ja"
+      },
+      {
+        "label": "Export till CSV eller JSON",
+        "free": "Nej",
+        "pro": "Ja"
+      }
     ],
-    "ended": "Om en prenumeration upphör ligger den historik som samlades in medan den var aktiv kvar.",
+    "ended": "Om prenumerationen upphör behåller du den historik som samlades in under prenumerationstiden.",
     "privacyHeading": "Integritet",
-    "privacyBefore": "Dina mätvärden stannar på din Mac. Attic har ingen reklam, och anonym användningsdata skickas bara om du slår på det. Läs ",
+    "privacyBefore": "Läs mer i ",
     "privacyLink": "integritetspolicyn",
-    "privacyAfter": ". Policyn finns bara på engelska.",
-    "notYet": "Attic finns inte i App Store ännu."
+    "privacyAfter": ", som finns på engelska.",
+    "notYet": "Attic finns ännu inte i App Store.",
+    "readOnly": "Attic läser av dina tillbehör men styr dem inte.",
+    "proPlans": "Med Attic Pro sparas historiken utan tidsgräns. Du kan också exportera mätvärden och använda dem i andra system, till exempel Home Assistant. Prenumerationen betalas månadsvis eller årsvis och stöder Familjedelning.",
+    "privacy": "Dina mätvärden sparas på din Mac. Attic är reklamfritt, och anonyma användningsdata skickas bara om du själv väljer att dela dem."
   }
 }
