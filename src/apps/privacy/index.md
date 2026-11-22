@@ -35,6 +35,8 @@ We use this information to answer you and investigate problems. Our legal basis 
 
 We delete support emails and accompanying files **within three months of receiving them**.
 
+In Attic, Diagnostics can prepare an email to us with one crash or hang report that macOS gave the app. The report holds where in the code the problem happened, the Attic and macOS versions, your Mac's model and region setting and a few other technical details. It does not include your readings or event history, but an error message recorded in it could in rare cases quote a name or value the app was handling. It is sent only if you send the email, and we handle it like any other support email.
+
 ## Cloudflare
 
 Our app analytics service runs on Cloudflare. Cloudflare processes connection information, including IP addresses and technical request details, to deliver traffic and prevent abuse. Its traffic and security records available to us can include requests that were not blocked and are retained for [up to 31 days on our current plan](https://developers.cloudflare.com/waf/analytics/security-analytics/#limits). Request logging and tracing are disabled in our analytics service.
