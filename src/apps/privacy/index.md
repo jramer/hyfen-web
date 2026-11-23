@@ -7,7 +7,7 @@ page_class: prose
 ---
 # Hyfen apps privacy policy
 
-Effective 20 October 2026
+Effective 23 November 2026
 
 Hyfen AB, organisation number 559180-9958, Sweden, is responsible for the data handling described here. This policy covers our apps that link to it. Contact us at **attic@hyfen.se**.
 
